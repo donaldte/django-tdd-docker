@@ -1,2 +1,2 @@
 # django-tdd-docker
-Django test dtriven development,  dockerization and deplyment
+Django test dtriven development,  dockerization and deployment
