@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from django.http import JsonResponse
 
-# Create your views here.
+def first_view(request):
+    context = {
+        'ping': 'pong'
+    }
+
+    return JsonResponse(context)
